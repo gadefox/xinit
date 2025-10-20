@@ -1,0 +1,7 @@
+# debug should be at the top
+debug=false
+server=/usr/lib/xorg/Xorg -nolisten tcp
+session-wrapper=/etc/X11/Xsession
+allow-chmod=yes
+# use 'false' or 'no' for the kernel 4.x due to drmSetMaster issues otherwise fell free to use the 'auto' option
+drop-root=no
